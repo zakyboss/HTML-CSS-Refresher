@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      section:first-of-type h1:nth-of-type(1) {
+        height: 200px;
+      }
+      section:nth-of-type(2) h1:nth-of-type(2) {
+        height: 200px;
+        rotate: 9deg;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1 class="transform" style="rotate: 15deg; width: 200px">
+        Transform Me !
+      </h1>
+      <h1 class="transform">Transform Me !</h1>
+      <h1 class="transform">Transform Me !</h1>
+      <h1 class="transform">Transform Me !</h1>
+    </section>
+    <section>
+      <h1 class="transform">Transform Me !</h1>
+      <h1 class="transform">Transform Me !</h1>
+      <h1 class="transform">Transform Me !</h1>
+      <h1 class="transform">Transform Me !</h1>
+    </section>
+    <script>
+      document.getElementsByClassName("transform")[0].style.backgroundColor =
+        "Green";
+      document.getElementsByClassName("transform")[1].style.backgroundColor =
+        "Orange";
+      document.getElementsByClassName("transform")[2].style.backgroundColor =
+        "Blue";
+      document.getElementsByClassName("transform")[3].style.backgroundColor =
+        "Yellow";
+      document.getElementsByClassName("transform")[4].style.backgroundColor =
+        "Pink";
+      document.getElementsByClassName("transform")[5].style.backgroundColor =
+        "Grey";
+      document.getElementsByClassName("transform")[6].style.backgroundColor =
+        "darkBlue";
+      document.getElementsByClassName("transform")[7].style.backgroundColor =
+        "purple";
+      document.getElementsByClassName("transform")[8].style.backgroundColor =
+        "red";
+    </script>
+  </body>
+</html>
